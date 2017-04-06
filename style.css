@@ -1,0 +1,26 @@
+main{
+    margin: 20px;
+    position: relative;
+}
+
+nav{
+    display: block;
+}
+
+nav a{
+    display: inline-block;
+    width: 250px;
+    border: 1px #aaa solid;
+    margin: 0;
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+}
+
+#logo-holder{
+    margin: 0px auto;
+    border: 1px #000 solid;
+    text-align: center;
+}
