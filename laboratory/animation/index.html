@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Angelo Rosamiran">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #bg{
+                width: 400px;
+                height: 200px;
+                animation-name: change;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                
+            }
+
+            @keyframes change{
+                0% {
+                    background-color: #000;
+                }
+
+                50% {
+                    background-color: #fff;
+                }
+
+                100%{background-color: #000;}
+                /*100% {
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#f00));
+                    background-image: -webkit-linear-gradient(right, #000, #f00);
+                    background-image: -moz-linear-gradient(right, #000, #f00);
+                    background-image: linear-gradient(to right, #000, #f00);
+                }*/
+            }
+
+            #bg, #myCanvas{
+                border: 1px solid #000;
+            }
+        </style>
+        <script src="animate.js"></script>
+    </head>
+    <body>
+        <div id="bg"></div>
+       <canvas id="myCanvas" width="400" height="200"></canvas> 
+    </body>
+</html>
